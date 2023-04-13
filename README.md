@@ -4,7 +4,7 @@
 
 > ------
 >
-> 除非在项目文件中特别注明，此项目文件内容使用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授权发布。任何人可以自由阅读、复制、发行，或通过信息网络传播本作品，或创作演绎作品，但**必须保留作者署名（FreemanRyan）**，以及指向（https://github.com/FreemanRyan/joseph.git/）的链接 ，并**不可用于商业用途** ；若在该作品基础上进行演绎，则**必须使用相同的协议（[署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/)）**进行发布。
+> 除非在项目文件中特别注明，此项目文件内容使用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授权发布。任何人可以自由阅读、复制、发行，或通过信息网络传播本作品，或创作演绎作品，但**必须保留作者署名（FreemanRyan）**，以及指向（https://freemanryan.github.io/）的链接 ，并**不可用于商业用途** ；若在该作品基础上进行演绎，则**必须使用相同的协议（[署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/)）**进行发布。
 
 - 每日一句API接口文档
   - 鸣谢：此接口为木头开发，其主页连接为`https://v2c.tech`; 如有侵权，请联系215147283@qq.com删除。

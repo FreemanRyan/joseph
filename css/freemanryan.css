@@ -1,0 +1,237 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;  /* 去除下划线 */ 
+	outline: none; /* 去除描边 */
+	border: none; /* 去除边框 */
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 67%; /* 默认加载页面缩放显示的百分比 */
+}
+
+body {
+	/*background: url(https://www.caojiefeng.com/api/bing/1920.php) no-repeat;*/
+	/*background: url(https://api.dujin.org/bing/1366.php) no-repeat;*/ 
+	/*如果不设置body的margin和padding为0的话，页面上下左右会出现空白。*/
+	background: url(https://api.dujin.org/bing/1920.php) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+
+}
+
+.content {
+	width: 900px;
+	height: 500px;
+	margin: 200px auto 0 auto;
+	border-radius: 10px;
+	background-color: rgba(236, 236, 236, 0.59);
+	transition: all 1.0s;
+	/*box-shadow: 0px 0px 20px rgba(0,0,0,0.3);*/
+}
+
+.content img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 150px 0 0 80px;
+	border-radius: 100px;
+
+}
+
+.content:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
+}
+
+.content_r {
+	float: right;
+	width: 500px;
+	margin: 80px 60px 0 0;
+	/*	background-color: pink;*/
+}
+
+.content_l {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.content_l h5 {
+
+	font-size: 17px;
+}
+
+.cc {
+	margin-top: 10px;
+	color: #1F2023;
+	font-size: 18px;
+}
+
+.color_1 {
+	color: #4855EC;
+	font-size: 18px;
+}
+
+.deeppink {
+	color: deeppink;
+}
+
+.link {
+	margin-top: 30px;
+}
+
+.link a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 45px;
+	margin: 5px 5px 0 0;
+	/*	padding: 0 15px;*/
+	color: #fff;
+	line-height: 45px;
+	transition: all 0.8s;
+	/*	background-color: deeppink;*/
+
+}
+
+.link a:hover {
+	background-color: rgba(0, 201, 243, 0.35);
+}
+
+.deeppink_1 {
+	background-color: deeppink;
+}
+
+.dodgerblue {
+	background-color: dodgerblue;
+}
+
+.magenta {
+	background-color: magenta;
+}
+
+.orange {
+	background-color: orange;
+}
+.green  {
+	background-color: green;
+}
+
+.pink  {
+	background-color: pink;
+}
+
+.iframe-wrapper {
+
+  	display: inline-flex;
+  	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	width: 800px;
+	height: 600px;
+	/*border-style:none;*/
+
+
+
+	
+}
+
+
+#iframe-wrapper > #map-frame {
+  /* 选择#map-frame元素内的<body>元素并修改样式 */
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  /*border-style:none;*/
+  
+
+}
+
+#iframe-wrapper > #motto-frame {
+  /* 选择#map-frame元素内的<body>元素并修改样式*/
+  position: relative;
+  top: 100px;
+  left: 100px;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+
+
+}
+
+
+#iframe-wrapper > #motto-frameM {
+  /* 选择#map-frame元素内的<body>元素并修改样式*/
+  position: relative;
+  top: 100px;
+  left: 100px;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+
+
+}
+
+
+#motto-container {
+  position: relative;
+  /*width: 200px;
+  height: 600px;*/
+
+
+}
+
+/* 调绿茶骚话对话框大小，可以把frameborder="no" border="0"  的限定先去掉，这样可以看到框的大小和绝对位置 
+   width: 50vw;: 设置iframe元素的宽度为视口宽度的50%。
+   height: 50vh;: 设置iframe元素的高度为视口高度的50%。
+   transform-origin: 0 0;: 设置iframe元素的变换基点为左上角，即(0, 0)坐标。
+   transform: scale(2);: 对iframe元素进行缩放变换，放大两倍。
+
+*/
+#motto-frame {
+  position: absolute;
+  top: 675px;
+  left: 1000px;
+  width: 600px;
+  height: 200px;
+  transform-origin: 0 0;
+  transform: scale(2);
+  
+
+}
+
+
+/* 调渣男骚话对话框大小，可以把frameborder="no" border="0"  的限定先去掉，这样可以看到框的大小和绝对位置 */
+#motto-frameM {
+  position: absolute;
+  top: 675px;
+  left: 1000px;
+  width: 600px;
+  height: 200px;
+	  transform-origin: 0 0;
+  transform: scale(2);
+  
+}
